@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ironslut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+		#ironslut-logo{
+			padding-top: 10px;
+			width: 140px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#slack-logo{
+			padding-top: 20px;
+		}
+		#ruby-logo{
+			padding-top: 27px;
+			width: 96%;
+		}
+		#replit-logo{
+			padding-top: 26px;
+			width: 92%;
+			border-style: none;
+			outline : none;
+		}
+		#css-logo{
+			padding-top: 18px;
+		}
+		#jquery-logo{
+			padding-top: 16px;
+		}
+		#jsfiddle-logo{
+			padding-top: 25px;
+		}
+		#menu{
+			padding-top: 26px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-5">
+					<div class="col-md-6 col-md-offset-6">
+						<div class="text-justify" id="menu">					
+							<h4><a href="index.html" style="color:#333;">EJERCICIOS</a></h4>
+							<h4><a href="apuntes.html" style="color:#333;">APUNTES</a></h4>
+							<h4><a href="videos.html" style="color:#333;">VIDEOS</a></h4>
+						</div>					
+					</div>					
+			</div>
+			<div class="col-xs-6 col-md-2">
+					<img src="images/ironslut_black.jpg" id="ironslut-logo" alt="Ironslut" class="img-responsive">				
+			</div>
+			<div class="hidden-xs hidden-sm col-md-5">
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://repl.it/languages" target="_blank">
+							<img src="images/replit.png" id="replit-logo" style="border:0!" class="img-responsive" alt="Repl.it">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.tutorialspoint.com/ruby/" target="_blank">
+							<img src="images/ruby-logo.png" id="ruby-logo" class="img-responsive" alt="Ruby">
+						</a>				
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://sluts-bitches.slack.com/messages/" target="_blank">
+							<img src="images/slack.png" id="slack-logo" class="img-responsive" alt="bitch-sluts channel">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://jsfiddle.net/" target="_blank">
+							<img src="images/jsfiddle_logo.png" id="jsfiddle-logo" class="img-responsive" alt="JSFIDDLE">
+						</a>						
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/jquery/jquery_get_started.asp" target="_blank">
+							<img src="images/jquery_logo.png" id="jquery-logo" class="img-responsive" alt="HTML5">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">
+							<img src="images/css_logo.png" id="css-logo" class="img-responsive" alt="CSS">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-xs-6 col-sm-2 col-sm-offset-1">
+						<h5 class="text-center">
+							<a href="apuntes.html" style="color:#333;"><b>RUBY</b></a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="advanced.html" style="color:#333;">HARD</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="webhtml.html" style="color:#333;">HTML</a><span>/</span><a href="webcss.html" style="color:#333;">CSS</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="ruby2js.html" style="color:#333;">JAVASCRIPT</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="sinatra.html" style="color:#333;">SINATRA</a>
+						</h5>
+					</div>
+				</div>			
+			</div>			
+		</div>
+
+		<div class="row">
+			<div style="padding-top:10px;">
+				<div class="col-md-4 col-md-offset-2">					
+					<h5 class="text-center">Variables y conversiones</h5>
+<pre style="background:#000;color:#f8f8f8"> a <span style="color:#e28964">=</span> <span style="color:#3387cc">1</span> <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3e87e3">Integer</span> (<span style="color:#3e87e3">Fixnum</span>)
+ b <span style="color:#e28964">=</span> <span style="color:#3387cc">2.4</span> <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3e87e3">Float</span>
+ c <span style="color:#e28964">=</span> <span style="color:#65b042">"c"</span> <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3e87e3">Char</span>
+ d <span style="color:#e28964">=</span> <span style="color:#65b042">"yo bitch"</span> <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3e87e3">Sring</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Conversion de a en float</span>
+  a <span style="color:#e28964">=</span> a.to_f  <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">1.0</span>
+<span style="color:#aeaeae;font-style:italic"> # Conversion de b en entero</span>
+  b <span style="color:#e28964">=</span> b.to_i  <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">2</span>
+<span style="color:#aeaeae;font-style:italic"> # Conversion de c en string</span>
+  c <span style="color:#e28964">=</span> c.to_s  <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"c"</span>
+<span style="color:#aeaeae;font-style:italic"> # d no se puede convertir</span>
+</pre>
+			</div>
+
+			<div class="col-md-4">
+				<h5 class="text-center">Operaciones</h5>
+<pre style="background:#000;color:#f8f8f8"> a <span style="color:#e28964">=</span> <span style="color:#3387cc">1</span>
+ b <span style="color:#e28964">=</span> a <span style="color:#e28964">+</span> <span style="color:#3387cc">2</span> <span style="color:#aeaeae;font-style:italic">--> 3 (b ahora vale 3)</span>
+ a <span style="color:#e28964">=</span> a <span style="color:#e28964">+</span> <span style="color:#3387cc">1</span> <span style="color:#aeaeae;font-style:italic">--> 2 (a ahora vale 2)</span>
+ a <span style="color:#e28964">+=</span> <span style="color:#3387cc">1</span>    <span style="color:#aeaeae;font-style:italic">--> 3 (a ahora vale 3)</span>
+ (mult<span style="color:#e28964">-></span> *  resta<span style="color:#e28964">-></span> <span style="color:#e28964">-</span> division<span style="color:#e28964">-></span> <span style="color:#e28964">/</span>)
+
+ c, d <span style="color:#e28964">=</span> <span style="color:#3387cc">1</span>, <span style="color:#3387cc">4</span> (c vale <span style="color:#3387cc">1</span> y d vale <span style="color:#3387cc">4</span>)
+ c <span style="color:#e28964">></span> d <span style="color:#aeaeae;font-style:italic">--> false (valores booleanos)</span>
+ c <span style="color:#e28964">&lt;</span> d <span style="color:#aeaeae;font-style:italic">--> true (valores booleanos)</span>
+ c <span style="color:#e28964">!=</span> d <span style="color:#aeaeae;font-style:italic">--> true (c diferente de d)</span>
+ c <span style="color:#e28964">&lt;=</span> d <span style="color:#aeaeae;font-style:italic">--> true (c inferio o igual a d)</span>
+ c <span style="color:#e28964">>=</span> d <span style="color:#aeaeae;font-style:italic">--> false (c superior o igual a d)</span>
+</pre>
+			</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<h5 class="text-center">Comparadores Lógicos</h5>
+<pre style="background:#000;color:#f8f8f8"> # Variables booleanas
+ a <span style="color:#e28964">=</span> <span style="color:#3387cc">true</span>  <span style="color:#aeaeae;font-style:italic">--> a es verdadero</span>
+ b <span style="color:#e28964">=</span> <span style="color:#3387cc">false</span> <span style="color:#aeaeae;font-style:italic">--> b es falso</span>
+ 
+ # Comparadores booleanos
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span> <span style="color:#e28964">AND</span> b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span>  <span style="color:#aeaeae;font-style:italic">--> verdadero</span>
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span> <span style="color:#e28964">&amp;</span><span style="color:#e28964">&amp;</span> b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span>   <span style="color:#aeaeae;font-style:italic">--> verdadero</span>
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span> <span style="color:#e28964">and</span> b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span> <span style="color:#aeaeae;font-style:italic">--> falso</span>
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span> <span style="color:#e28964">&amp;</span><span style="color:#e28964">&amp;</span> b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span>    <span style="color:#aeaeae;font-style:italic">--> falso</span>
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span> <span style="color:#e28964">OR</span> b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span>    <span style="color:#aeaeae;font-style:italic">--> verdadero</span>
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span> <span style="color:#e28964">OR</span> b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span>  <span style="color:#aeaeae;font-style:italic">--> verdadero</span>
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span> || b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span>   <span style="color:#aeaeae;font-style:italic">--> verdadero</span>
+ a <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">false</span> <span style="color:#e28964">OR</span> b <span style="color:#e28964">=</span><span style="color:#e28964">=</span> <span style="color:#3387cc">true</span>   <span style="color:#aeaeae;font-style:italic">--> falso  </span>
+</pre>
+				</div>
+				<div class="col-md-4">
+					<h5 class="text-center">Interacciones</h5>
+<pre style="background:#000;color:#f8f8f8"> a <span style="color:#e28964">=</span> <span style="color:#3387cc">1</span>
+ b <span style="color:#e28964">=</span> <span style="color:#65b042">"yo nigga"</span>
+
+ puts a  <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> devuelve <span style="color:#3387cc">1</span>
+ puts <span style="color:#65b042">"el valor de a es <span style="color:#daefa3">#{a}</span>"</span>
+  <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> el valor de a es <span style="color:#3387cc">1</span>
+ 
+ print <span style="color:#65b042">"yo nigga"</span>
+ c <span style="color:#e28964">=</span> gets.chomp <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> pide al usuario (string)
+ d <span style="color:#e28964">=</span> gets.chomp.to_i <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> lo transforma a int
+
+<span style="color:#aeaeae;font-style:italic"> # puts  --> salta a la linea</span>
+<span style="color:#aeaeae;font-style:italic"> # print --> no salta a la linea</span>
+</pre>
+			</div>			
+		</div>
+
+		<div class="row">
+			<div style="padding-top:0px;">
+				<div class="col-md-4 col-md-offset-2">
+					<h5 class="text-center">Bucle If..Else</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ <span style="color:#e28964">if</span> [<span style="color:#3e87e3">CONDICION</span>] 
+   [<span style="color:#3e87e3">ACCION</span> ó <span style="color:#3e87e3">ACCIONES</span>]
+ <span style="color:#e28964">elsif</span> [<span style="color:#3e87e3">OTRA</span> <span style="color:#3e87e3">CONDICION</span>]
+   [<span style="color:#3e87e3">OTRA</span> <span style="color:#3e87e3">ACCION</span> <span style="color:#3e87e3">O</span> <span style="color:#3e87e3">ACCIONES</span>]
+ <span style="color:#e28964">else</span>  <span style="color:#aeaeae;font-style:italic"># el resto de casos</span>
+   [<span style="color:#3e87e3">OTRA</span> <span style="color:#3e87e3">ACCION</span>]
+ <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ x <span style="color:#e28964">=</span> <span style="color:#3387cc">1</span>
+ <span style="color:#e28964">if</span> x <span style="color:#e28964">></span> <span style="color:#3387cc">2</span> 
+   puts <span style="color:#65b042">"x es superior a 2"</span>
+ <span style="color:#e28964">elsif</span> x <span style="color:#e28964">&lt;=</span> <span style="color:#3387cc">2</span> 
+   puts <span style="color:#65b042">"x es igual a 1"</span>
+<span style="color:#aeaeae;font-style:italic">   # se cumple esta condicion</span>
+ <span style="color:#e28964">else</span>
+   puts <span style="color:#65b042">"I dont know"</span>
+ <span style="color:#e28964">end</span>
+</pre>
+				</div>
+
+				<div class="col-md-4">
+					<h5 class="text-center">Bucle For</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ <span style="color:#e28964">for</span> [<span style="color:#3e87e3">VARIABLE</span>(i)] <span style="color:#e28964">in</span> [<span style="color:#3e87e3">EXPRESION</span>] <span style="color:#e28964">do</span>
+   [<span style="color:#3e87e3">ACCION</span> <span style="color:#3e87e3">CON</span> <span style="color:#3e87e3">LA</span> <span style="color:#3e87e3">VARIABLE</span> i]
+ <span style="color:#e28964">end</span> 
+
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ <span style="color:#e28964">for</span> i <span style="color:#e28964">in</span> <span style="color:#3387cc">0</span>..<span style="color:#3387cc">5</span> <span style="color:#e28964">do </span>
+   puts <span style="color:#65b042">"i vale <span style="color:#daefa3">#{i}</span>"</span>
+ <span style="color:#e28964">end</span>
+<span style="color:#aeaeae;font-style:italic"> # en este caso el bucle for se repite 6</span>
+<span style="color:#aeaeae;font-style:italic"> # veces, de 0 a 5 y el valor de i va a ir </span>
+<span style="color:#aeaeae;font-style:italic"> # teniendo los valores de 0 a 5.</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Resultado</span>
+ <span style="color:#e28964">></span> i vale <span style="color:#3387cc">0</span>
+   i vale <span style="color:#3387cc">1</span>
+   i vale <span style="color:#3387cc">2</span>
+   i vale <span style="color:#3387cc">3</span>
+<span style="color:#aeaeae;font-style:italic">   # hasta 5</span>
+</pre>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<h5 class="text-center">Bucle While</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ <span style="color:#e28964">while</span> [<span style="color:#3e87e3">CONDICION</span>] <span style="color:#e28964">do</span>
+   [<span style="color:#3e87e3">ACCION</span> o <span style="color:#3e87e3">ACCIONES</span>]
+ <span style="color:#e28964">end</span> 
+
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ i, num <span style="color:#e28964">=</span> <span style="color:#3387cc">0</span>, <span style="color:#3387cc">5</span>
+ <span style="color:#e28964">while</span> i <span style="color:#e28964">&lt;</span> num <span style="color:#e28964">do </span>
+   puts <span style="color:#65b042">"i vale <span style="color:#daefa3">#{i}</span>"</span>
+   i <span style="color:#e28964">+=</span> <span style="color:#3387cc">1</span>
+ <span style="color:#e28964">end</span>
+<span style="color:#aeaeae;font-style:italic"> # en este caso el while se repite hasta que</span>
+<span style="color:#aeaeae;font-style:italic"> # la variable i valga 5. A cada bucle se</span>
+<span style="color:#aeaeae;font-style:italic"> # incrementa el valor de i con i+= 1.</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Resultado</span>
+ <span style="color:#e28964">></span> i vale <span style="color:#3387cc">0</span>
+   i vale <span style="color:#3387cc">1</span>
+   i vale <span style="color:#3387cc">2</span>
+   i vale <span style="color:#3387cc">3</span>
+<span style="color:#aeaeae;font-style:italic">   # hasta 5</span>
+</pre>
+			</div>
+			<div class="col-md-4">
+				<h5 class="text-center">Bucle Times</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ [<span style="color:#3e87e3">Numero</span>].times <span style="color:#e28964">do</span>
+    [<span style="color:#3e87e3">ACCION</span>]
+ <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # el times es un bucle que se repite </span>
+<span style="color:#aeaeae;font-style:italic"> # las veces que se establezca antes </span>
+<span style="color:#aeaeae;font-style:italic"> # del .times, es decir [Numero] veces. </span>
+<span style="color:#aeaeae;font-style:italic"> # Se diferencia del upto por no ofrecer </span>
+<span style="color:#aeaeae;font-style:italic"> # ninguna variable que se va incrementando</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+  <span style="color:#3387cc">10</span>.times <span style="color:#e28964">do</span>
+    puts <span style="color:#65b042">"Num: <span style="color:#daefa3">#{rand(<span style="color:#ddf2a4">0</span>..<span style="color:#ddf2a4">5</span>)}</span>"</span>
+  <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Resultado</span>
+  <span style="color:#e28964">></span> <span style="color:#3e87e3">Num</span>: <span style="color:#3387cc">3</span> (numero al azar entre <span style="color:#3387cc">0</span> y <span style="color:#3387cc">5</span>)
+    <span style="color:#3e87e3">Num</span>: <span style="color:#3387cc">1</span> (otro numero al azar)
+       ..... <span style="color:#aeaeae;font-style:italic"># el bucle se repite 10 veces</span>
+    <span style="color:#3e87e3">Num</span>: <span style="color:#3387cc">4</span> (ultimo numero al azar)
+</pre>
+			</div>
+		</div>
+
+		<div class="row">
+				<div class="col-md-4 col-md-offset-2">
+				<h5 class="text-center">Case: Sintaxis</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ <span style="color:#e28964">case</span> [<span style="color:#3e87e3">VARIABLE</span>]
+ <span style="color:#e28964">when</span> [<span style="color:#3e87e3">RANGO</span> <span style="color:#3e87e3">O</span> <span style="color:#3e87e3">CONDICION</span>]
+    [<span style="color:#3e87e3">ACCION</span>]
+ <span style="color:#e28964">when</span> [<span style="color:#3e87e3">RANGO</span><span style="color:#e28964">-</span><span style="color:#3387cc">2</span> <span style="color:#3e87e3">O</span> <span style="color:#3e87e3">CONDICION</span><span style="color:#e28964">-</span><span style="color:#3387cc">2</span>]
+    [<span style="color:#3e87e3">ACCION</span><span style="color:#e28964">-</span><span style="color:#3387cc">2</span>]
+ <span style="color:#e28964">when</span> [<span style="color:#3e87e3">RANGO</span><span style="color:#e28964">-</span><span style="color:#3387cc">3</span> <span style="color:#3e87e3">O</span> <span style="color:#3e87e3">CONDICION</span><span style="color:#e28964">-</span><span style="color:#3387cc">3</span>]
+    [<span style="color:#3e87e3">ACCION</span><span style="color:#e28964">-</span><span style="color:#3387cc">3</span>]
+        :
+ <span style="color:#e28964">when</span> [<span style="color:#3e87e3">RANGO</span><span style="color:#e28964">-</span><span style="color:#3e87e3">N</span> <span style="color:#3e87e3">O</span> <span style="color:#3e87e3">CONDICION</span><span style="color:#e28964">-</span><span style="color:#3e87e3">N</span>]
+    [<span style="color:#3e87e3">ACCION</span><span style="color:#e28964">-</span><span style="color:#3e87e3">N</span>]
+ <span style="color:#e28964">else</span>
+    [<span style="color:#3e87e3">ULTIMA</span> <span style="color:#3e87e3">ACCION</span>]
+ <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # el case sirve para casos en los </span>
+<span style="color:#aeaeae;font-style:italic"> # que las posibilidades son limitadas, </span>
+<span style="color:#aeaeae;font-style:italic"> # como por ej si deseas obtener los </span>
+<span style="color:#aeaeae;font-style:italic"> # dias de la semana en escrito (string), </span>
+<span style="color:#aeaeae;font-style:italic"> # numeros escritos, meses, estaciones del</span>
+<span style="color:#aeaeae;font-style:italic"> # año, etc...</span>
+</pre>					
+				</div>
+				<div class="col-md-4">
+					<h5 class="text-center">Case: Ejemplo</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ dia <span style="color:#e28964">=</span> <span style="color:#3387cc">4</span>
+
+ <span style="color:#e28964">case</span> dia
+ <span style="color:#e28964">when</span> <span style="color:#3387cc">1</span>
+    puts <span style="color:#65b042">"Hoy es Lunes"</span>
+ <span style="color:#e28964">when</span> <span style="color:#3387cc">2</span>
+    puts <span style="color:#65b042">"Hoy es Martes"</span>
+ <span style="color:#e28964">when</span> <span style="color:#3387cc">3</span>
+    puts <span style="color:#65b042">"Hoy es Miercoles"</span>
+ <span style="color:#e28964">when</span> <span style="color:#3387cc">4</span>
+    puts <span style="color:#65b042">"Hoy es Jueves"</span>
+ <span style="color:#e28964">when</span> <span style="color:#3387cc">5</span>
+    puts <span style="color:#65b042">"Hoy es Viernes"</span>
+ <span style="color:#e28964">else</span> 
+    puts <span style="color:#65b042">"Es fin de semana!"</span>
+ <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Resultado</span>
+ <span style="color:#e28964">></span> <span style="color:#3e87e3">Hoy es Jueves</span>
+
+</pre>
+				</div>
+		</div>
+		
+		<div class="row">
+				<div class="col-md-4 col-md-offset-2">
+					<h5 class="text-center">Bucle Each</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ [<span style="color:#3e87e3">Rango</span> o <span style="color:#3e87e3">Expresion</span>].each <span style="color:#e28964">do </span>|[<span style="color:#3e87e3">VARIABLE</span>]|
+    [<span style="color:#3e87e3">ACCION</span> (con la [<span style="color:#3e87e3">VARIABLE</span>])
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ (<span style="color:#3387cc">0</span>..<span style="color:#3387cc">3</span>).each <span style="color:#e28964">do </span>|<span style="color:#3e87e3">x</span>|
+   puts <span style="color:#65b042">"x vale <span style="color:#daefa3">#{x}</span>"</span>
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"># Resultado</span>
+ <span style="color:#e28964">></span> x vale <span style="color:#3387cc">0</span>
+   x vale <span style="color:#3387cc">1</span>
+   x vale <span style="color:#3387cc">2</span>
+   x vale <span style="color:#3387cc">3</span>
+</pre>
+				</div>
+				<div class="col-md-4">
+					<h5 class="text-center">Bucle Each-Char</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ [<span style="color:#3e87e3">String</span>].each_char <span style="color:#e28964">do </span>|[<span style="color:#3e87e3">VARIABLE</span>]|
+    [<span style="color:#3e87e3">ACCION</span> (con la [<span style="color:#3e87e3">VARIABLE</span>])
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ <span style="color:#65b042">"hola"</span>.each_char <span style="color:#e28964">do </span>|<span style="color:#3e87e3">x</span>|
+   puts <span style="color:#65b042">"x vale <span style="color:#daefa3">#{x}</span>"</span>
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"># Resultado</span>
+ <span style="color:#e28964">></span> x vale h
+   x vale o
+   x vale l
+   x vale a
+</pre>
+				</div>
+		</div>	
+			
+		<div class="row">
+				<div class="col-md-4 col-md-offset-2">
+					<h5 class="text-center">Bucle Upto</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ [<span style="color:#3e87e3">NumInicial</span>].upto([<span style="color:#3e87e3">NumFinal</span>] <span style="color:#e28964">do </span>|[<span style="color:#3e87e3">VAR</span>]|
+    [<span style="color:#3e87e3">ACCION</span> (con la [<span style="color:#3e87e3">VAR</span>])
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ <span style="color:#3387cc">1</span>.upto(<span style="color:#3387cc">3</span>) <span style="color:#e28964">do </span>|<span style="color:#3e87e3">i</span>|
+   puts <span style="color:#65b042">"i vale <span style="color:#daefa3">#{i}</span>"</span>
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"># Resultado</span>
+ <span style="color:#e28964">></span> i vale <span style="color:#3387cc">1</span>
+   i vale <span style="color:#3387cc">2</span>
+   i vale <span style="color:#3387cc">3</span>
+</pre>
+				</div>
+				<div class="col-md-4">
+					<h5 class="text-center">Bucle Downto</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ [<span style="color:#3e87e3">NumFinal</span>].downto([<span style="color:#3e87e3">NumInicial</span>] <span style="color:#e28964">do </span>|[<span style="color:#3e87e3">VAR</span>]|
+    [<span style="color:#3e87e3">ACCION</span> (con la [<span style="color:#3e87e3">VAR</span>])
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo</span>
+ <span style="color:#3387cc">3</span>.downto(<span style="color:#3387cc">1</span>) <span style="color:#e28964">do </span>|<span style="color:#3e87e3">i</span>|
+   puts <span style="color:#65b042">"i vale <span style="color:#daefa3">#{i}</span>"</span>
+ <span style="color:#e28964">end</span>
+ 
+<span style="color:#aeaeae;font-style:italic"># Resultado</span>
+ <span style="color:#e28964">></span> i vale <span style="color:#3387cc">3</span>
+   i vale <span style="color:#3387cc">2</span>
+   i vale <span style="color:#3387cc">1</span>
+</pre>
+				</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<h5 class="text-center">Arrays</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Sintaxis</span>
+ arr <span style="color:#e28964">=</span> [<span style="color:#3387cc">2</span>, <span style="color:#3387cc">5</span>, <span style="color:#3387cc">1</span>, <span style="color:#3387cc">3</span>, <span style="color:#3387cc">4</span>]
+ arr.size <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">5</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Crear un Array</span>
+ arr <span style="color:#e28964">=</span> []
+ arr <span style="color:#e28964">=</span> <span style="color:#9b859d">Array</span>.<span style="color:#e28964">new</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Crear un array con elementos</span>
+ arr <span style="color:#e28964">=</span> [<span style="color:#3387cc">1</span>, <span style="color:#3387cc">2</span>, <span style="color:#3387cc">3</span>]
+ arr <span style="color:#e28964">=</span> <span style="color:#9b859d">Array</span>.<span style="color:#e28964">new</span>([<span style="color:#3387cc">1</span>, <span style="color:#3387cc">2</span>, <span style="color:#3387cc">3</span>])
+
+<span style="color:#aeaeae;font-style:italic"> # Añadir elementos al array</span>
+ arr <span style="color:#e28964">=</span> []
+ arr <span style="color:#e28964">&lt;&lt;</span> <span style="color:#3387cc">1</span>
+ arr.inyect(<span style="color:#3387cc">1</span>, <span style="color:#65b042">"bitch"</span>)
+ arr[<span style="color:#3387cc">2</span>] <span style="color:#e28964">=</span> <span style="color:#3387cc">true</span>
+ <span style="color:#e28964">></span> [<span style="color:#3387cc">1</span>, <span style="color:#65b042">"bitch"</span>, <span style="color:#3387cc">true</span>]
+
+<span style="color:#aeaeae;font-style:italic"> # Obtener un elemento del array</span>
+ arr <span style="color:#e28964">=</span> [<span style="color:#3387cc">1</span>, <span style="color:#65b042">"bitch"</span>, <span style="color:#3387cc">true</span>]
+ arr[<span style="color:#3387cc">0</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">1</span>
+ arr[<span style="color:#3387cc">1</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"bitch"</span>
+ arr[<span style="color:#3387cc">2</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">true</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Array en un array</span>
+ arr <span style="color:#e28964">=</span> [[<span style="color:#65b042">"lano"</span>, <span style="color:#3387cc">1</span>], [<span style="color:#65b042">"polo"</span>, <span style="color:#3387cc">2</span>]]
+ arr[<span style="color:#3387cc">0</span>]    <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> [<span style="color:#65b042">"lano"</span>, <span style="color:#3387cc">1</span>]
+ arr[<span style="color:#3387cc">0</span>][<span style="color:#3387cc">0</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"lano"</span>
+ arr[<span style="color:#3387cc">0</span>][<span style="color:#3387cc">1</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">1</span>
+ arr[<span style="color:#3387cc">1</span>]    <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> [<span style="color:#65b042">"polo"</span>, <span style="color:#3387cc">2</span>]
+ arr[<span style="color:#3387cc">1</span>][<span style="color:#3387cc">0</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"polo"</span>
+ arr[<span style="color:#3387cc">1</span>][<span style="color:#3387cc">1</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">2</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Recorrer elementos de un array</span>
+  arr <span style="color:#e28964">=</span> [<span style="color:#65b042">"eres"</span>, <span style="color:#65b042">"un"</span>, <span style="color:#65b042">"tucli"</span>]
+
+  arr.each <span style="color:#e28964">do </span>|<span style="color:#3e87e3">a</span>|
+    puts <span style="color:#65b042">"resultado: <span style="color:#daefa3">#{a}</span>"</span>
+  <span style="color:#e28964">end</span>
+
+  <span style="color:#e28964">></span> <span style="color:#3387cc">resultado:</span> <span style="color:#65b042">"eres"</span>
+    <span style="color:#3387cc">resultado:</span> <span style="color:#65b042">"un"</span>
+    <span style="color:#3387cc">resultado:</span> <span style="color:#65b042">"tucli"</span>
+</pre>
+			</div>
+			<div class="col-md-4">
+				<h5 class="text-center">Strings</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Crear un String</span>
+ str <span style="color:#e28964">=</span> <span style="color:#65b042">""</span> (string vacío)
+ str <span style="color:#e28964">=</span> <span style="color:#9b859d">String</span>.<span style="color:#e28964">new</span> (tb vacío)
+
+<span style="color:#aeaeae;font-style:italic"> # Concatenar Strings</span>
+ str1 <span style="color:#e28964">=</span> <span style="color:#65b042">"hola "</span>
+ str2 <span style="color:#e28964">=</span> <span style="color:#65b042">"tucli."</span>
+ str1 <span style="color:#e28964">+</span> str2 <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"hola tucli."</span>
+<span style="color:#aeaeae;font-style:italic"> # (tb: str1.concat(str2) )</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Reemplazar palabras (sub y gsub)</span>
+ str1 <span style="color:#e28964">=</span> <span style="color:#65b042">"you are a fucking bitch"</span>
+ str2 <span style="color:#e28964">=</span> str1.sub(<span style="color:#65b042">"bitch"</span>, <span style="color:#65b042">"whore"</span>)
+    <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"you are a fucking whore"</span>
+<span style="color:#aeaeae;font-style:italic"> # el sub solo cambia el primero</span>
+ str1 <span style="color:#e28964">=</span> <span style="color:#65b042">"you slut, fucking slut"</span>
+ str2 <span style="color:#e28964">=</span> str1.gsub(<span style="color:#65b042">"slut"</span>, <span style="color:#65b042">"bich"</span>)
+    <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"you bich, fucking bich"</span>
+<span style="color:#aeaeae;font-style:italic"> # el gsub cambia los 2 "slut"</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Separar palabras en array (split)</span>
+ str <span style="color:#e28964">=</span> <span style="color:#65b042">"eres un tucli"</span>
+ str.split <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> [<span style="color:#65b042">"eres"</span>, <span style="color:#65b042">"un"</span>, <span style="color:#65b042">"tucli"</span>]
+ (es lo mismo que str.split(<span style="color:#65b042">" "</span>) )
+ str.split(<span style="color:#65b042">"e"</span>) <span style="color:#e28964">-</span><span style="color:#e28964">></span> [<span style="color:#65b042">"r"</span>, <span style="color:#65b042">"s un tucli"</span>]
+ str.split(<span style="color:#65b042">"e"</span>)[<span style="color:#3387cc">0</span>] <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"r"</span>
+ str.split(<span style="color:#65b042">"e"</span>).count <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">2</span>
+  (se puede hacer split de un split)
+ 
+<span style="color:#aeaeae;font-style:italic"> # Juntar trozos de nuevo (join)</span>
+  str <span style="color:#e28964">=</span> <span style="color:#65b042">"eres un tucli"</span>
+  str.split(<span style="color:#65b042">" "</span>).join
+     <span style="color:#e28964">-</span><span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"eresuntucli"</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Recorrer elementos de una string</span>
+  str <span style="color:#e28964">=</span> <span style="color:#65b042">"eres un tucli"</span>
+  str.each_char <span style="color:#e28964">do </span>|<span style="color:#3e87e3">c</span>|
+    puts <span style="color:#65b042">"letra: <span style="color:#daefa3">#{c}</span>"</span>
+  <span style="color:#e28964">end</span>
+  <span style="color:#e28964">></span> <span style="color:#3387cc">letra:</span> e
+    <span style="color:#3387cc">letra:</span> r
+    <span style="color:#3387cc">letra:</span> e
+    <span style="color:#3387cc">letra:</span> s
+<span style="color:#aeaeae;font-style:italic">    # hasta el ultimo caracter</span>
+</pre>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div style="padding-bottom:100px;"></div>
+		</div>
+	</div>
+</body>
+</html>

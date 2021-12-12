@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ironslut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+		#ironslut-logo{
+			padding-top: 10px;
+			width: 140px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#slack-logo{
+			padding-top: 20px;
+		}
+		#ruby-logo{
+			padding-top: 27px;
+			width: 96%;
+		}
+		#replit-logo{
+			padding-top: 26px;
+			width: 92%;
+			border-style: none;
+			outline : none;
+		}
+		#css-logo{
+			padding-top: 18px;
+		}
+		#jquery-logo{
+			padding-top: 16px;
+		}
+		#jsfiddle-logo{
+			padding-top: 25px;
+		}
+		#menu{
+			padding-top: 26px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-5">
+					<div class="col-md-6 col-md-offset-6">
+						<div class="text-justify" id="menu">					
+							<h4><a href="javascript-exercises.html" style="color:#333;">EJERCICIOS</a></h4>
+							<h4><a href="ruby2js.html" style="color:#333;">APUNTES</a></h4>
+							<h4><a href="videos.html" style="color:#333;">VIDEOS</a></h4>
+						</div>					
+					</div>					
+			</div>
+			<div class="col-xs-6 col-md-2">
+					<img src="images/ironslut_black.jpg" id="ironslut-logo" alt="Ironslut" class="img-responsive">				
+			</div>
+			<div class="hidden-xs hidden-sm col-md-5">
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://repl.it/languages" target="_blank">
+							<img src="images/replit.png" id="replit-logo" style="border:0!" class="img-responsive" alt="Repl.it">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.tutorialspoint.com/ruby/" target="_blank">
+							<img src="images/ruby-logo.png" id="ruby-logo" class="img-responsive" alt="Ruby">
+						</a>				
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://sluts-bitches.slack.com/messages/" target="_blank">
+							<img src="images/slack.png" id="slack-logo" class="img-responsive" alt="bitch-sluts channel">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://jsfiddle.net/" target="_blank">
+							<img src="images/jsfiddle_logo.png" id="jsfiddle-logo" class="img-responsive" alt="JSFIDDLE">
+						</a>						
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/jquery/jquery_get_started.asp" target="_blank">
+							<img src="images/jquery_logo.png" id="jquery-logo" class="img-responsive" alt="HTML5">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">
+							<img src="images/css_logo.png" id="css-logo" class="img-responsive" alt="CSS">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-xs-6 col-sm-2 col-sm-offset-2">
+						<h5 class="text-center"><a href="index.html" style="color:#333;">RUBY</a></h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center"><a href="advanced-exercises.html" style="color:#333;">HARD</a></h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center"><a href="html-exercises.html" style="color:#333;">HTML/CSS</a></h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center"><a href="javascript-exercises.html" style="color:#333"><strong>JAVASCRIPT</strong></a></h5>
+					</div>
+				</div>				
+			</div>			
+		</div>
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div>					
+					<h3 align="center">jQuery</h3>
+					<h5 style="text-align:justify;margin-top:15px;">
+						jQuery es una librería de Javascript que simplifica el uso de funciones complejas de Javascript.
+						Permite manipular código HTML, CSS, implementar eventos,
+						hacer animaciones, y hacer llamadas al servidor con AJAX.
+					</h5>
+					<h5 style="text-align:justify;">
+						¿Cómo funciona? Basta con incluir en el 'head' dos lineas. 
+						Una con la librería de jQuery proporcionada por google, 
+						y otra con el archivo ".js" con el contenido del código.
+						El archivo hay que crearlo, y dejarlo en la misma carpeta
+						del html. Las lineas hay que introducirlas de la siguiente forma:
+					</h5>
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"mi_jquery.js"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span>
+</pre>
+					<h5 style="text-align:justify;margin-top:15px;">
+						Para imprimir resultados, hay que usar el console.log (igual que print en ruby), y observar el resultado inspeccionando elemento en el navegador, en la pestaña "Console".
+						El codigo jQuery tiene que declararse en el archivo .js, metiendolo en un document ready de la siguiente forma:
+					</h5>
+					<div class="row">
+						<div class="col-md-7">
+<pre style='color:#000020;background:#f6f8ff;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:rgb(154, 180, 69); '>// ejemplo.js //</span>
+$<span style='color:#308080; '>(</span>document<span style='color:#308080; '>)</span><span style='color:#308080; '>.</span>ready<span style='color:#308080; '>(</span><span style='color:#200080; font-weight:bold; '>function</span><span style='color:#308080; '>(</span><span style='color:#308080; '>)</span><span style='color:#406080; '>{</span>
+  <span style='color:#595979; '>// EL CODIGO jQuery AQUI, por ejemplo:</span>
+  console<span style='color:#308080; '>.</span><span style='color:#200080; font-weight:bold; '>log</span><span style='color:#308080; '>(</span><span style='color:#800000; '>"</span><span style='color:#1060b6; '>Hey... yo!</span><span style='color:#800000; '>"</span><span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+<span style='color:#406080; '>}</span><span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+</pre>
+						</div>
+						<div class="col-md-5">
+							<br><br><br><br>
+							<h5 align="center">Para mas información, entrar <a href="http://www.w3schools.com/jquery/jquery_get_started.asp" target="_blank">aqui</a></h5>
+						</div>
+					</div>
+					<h4>
+						1. Descarga el siguiente archivo: <a href="files/exjquery/ejercicio_jquery.zip">ejercicio_jquery.zip</a>.
+						Dentro hay un archivo html (ejercicio.html), y varios archivos javascript (ej1selectors.js, ej2dom.js, etc..). Los archivos javascript contienen los enunciados de los ejercicios (comentados). El objetivo es 
+						ir resolviendolos, y una vez resueltos, comentar el resultado, seguir con el siguiente y así sucesivamente.
+						El archivo html no requiere ningún tipo de manipulación para la resolución de los ejercicios. Solo hay que
+						incluir cada vez el archivo javascript del ejercicio correspondiente.
+					</h4>
+					<h4>
+						1.1 Incluir en el head el primer archivo de ejercicios (ej1selectors.js). Abrir el archivo, e ir 
+						resolviendo los enunciados. Los resultados se comprueban recargando el html y observando el resultado.
+						Una vez resuelto un ejercicio, hay que comentarlo para seguir con el siguiente.
+					</h4>
+					<h4>
+						1.2 Eliminar el ej1selectors.js del head, y añadir el segundo ejercicio (ej2dom.js). Corresponde a
+						la manipulación del DOM. Resolver los ejercicios. Para cualquier dificultad, buscad en las documentaciones
+						en los links de la parte superior de la pagina.
+					</h4>
+					<h4>
+						1.3 Eliminar del head el ej2dom.js, e incluir ej3animation.js. Contiene ejercicios para aprender
+						de animaciones de jQuery. Como con los anteriores, ir comentando los ejercicios resueltos, y verificando
+						en el html los resultados.
+					</h4>
+					<h4>
+						1.4 Reemplazar en el head el ej3animation.js por ej4events.js, y resolver los ejercicios.
+					</h4>
+					<div class="row"><h3 align="center">AJAX</h3></div>
+					<h5 style="text-align:justify">
+						Con AJAX se pueden realizar peticiones al servidor, y obtener una respuesta en segundo plano. 
+						La respuesta contiene datos que, a través de Javascript, nos permitirá modificar los contenidos
+						de la pagina creando efectos con jQuery. En definitiva, AJAX permite que una pagina que ya haya
+						sido cargada, solicite nueva información al servidor, utilizando formularios, botones (submit), 
+						valores (value) que provienen de elementos del html.
+					</h5>
+					<h5>
+						Existen varios tipos de llamadas, entre ellas dos importantes: las GET y las POST. Las llamadas 
+						GET sirven para <u>obtener información</u> del servidor (base de datos). Se puede considerar
+						un 'request' al servidor. Al hacer una llamada GET, obtendremos una respuesta del servidor con
+						la información solicitada. 
+						Las llamadas POST son para enviar información al servidor. Esa información será procesada por
+						el servidor (ruby), y obtendremos igualmente una respuesta con información adicional. 
+						Para actualizar información, existe la llamada PUT, y para borrar información del servidor, 
+						existe la llamada DELETE. Pero esas dos acciones se pueden realizar igualmente con una llamada
+						POST, dependiendo del caso. Para mas información, mirar 
+						<a href="http://www.w3schools.com/ajax/">aqui</a>.
+					</h5>
+					<h4>
+						2. Descarga el siguiente archivo: <a href="files/exjquery/ejercicio_ajax.zip">ejercicio_ajax.zip</a>.
+						Dentro hay varios archivos, entre ellos un 'exercise.html' en el que hay que ir observando
+						en la consola los resultados (el html ni el css requieren modificación). Tampoco hace falta incluir
+						archivos javascript. Para resolver los ejercicios, hay que instalar los siguientes paquetes:
+					</h4>
+					<div class="row">
+						<div class="col-md-7">
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#400000; '>gem</span> install <span style='color:#308080; '>-</span>N sinatra 
+<span style='color:#400000; '>gem</span> install <span style='color:#308080; '>-</span>N sinatra<span style='color:#308080; '>-</span>contrib
+</pre>							
+						</div>
+					</div>
+					<h4>
+						2.1 Acceder a la carpeta de los ejercicios de ajax desde el terminal, y ejecutar el archivo
+						json.rb de la siguiente forma: <tt>ruby json.rb</tt>. Esperar unos segundos, y acceder a este link
+						desde el navegador: <a href="http://localhost:3000">http://localhost:3000</a>
+					</h4>
+					<h4>
+						2.2 Abrir el archivo 'ajax.js' que se encuentra en la carpeta 'public'. Dentro hay cuatro ejercicios.
+						Resolver uno a uno. Mirar previamente como hacer llamadas GET y POST para poder resolver algún que 
+						otro ejercicio.
+					</h4>
+					<h4>
+						3. Descarga el siguiente archivo: <a href="files/exjquery/ajax_caller.zip">ajax_caller.zip</a>.
+						Dentro hay un archivo index.html y un archivo javascript 'slutcaller.js'.
+						Al abrir el index.html con el navegador, hay un link y cuatro formularios. El objetivo es hacer
+						llamadas get, post, put y delete a través de esos formularios. Las llamadas se hacen a la siguiente
+						pagina: <a href="http://slutcalls.herokuapp.com/" target="_blank">http://slutcalls.herokuapp.com/</a>. Hay que ir
+						recargandola y verificando que las llamadas actúan en la página.
+					</h4>
+					<h4>
+						3.1 Al hacer click en el link con id 'get-slutcall', se debe hacer una llamada GET a 
+						<a href="">http://slutcalls.herokuapp.com/ironslut</a>.
+						La resupuesta se tiene que mostrar con un alert, y en la consola del navegador del index.html.
+					</h4>
+					<h4>
+						3.2 Escribe algo en el input con id 'name'. Al hacer click en el botón con id 'name-go', se debe
+						hacer una llamada GET <a href="">http://slutcalls.herokuapp.com/ironslut</a> con lo que se ha escrito en el input como parametro en la url (despues de /ironslut).
+						La respuesta se tiene que mostrar en un alert, y en la consola del navegador.
+					</h4>
+					<h4>
+						3.3 Escribe un nombre y alguna info en los inputs con id 'name-post' y 'info'. Al hacer click en el
+						botón con id 'go-post', se tiene que hacer una llamada POST a 
+						<a href="">http://slutcalls.herokuapp.com/ironslut</a>
+						con 'name' y 'info' como parametros (stringificados en JSON). 
+						Si la llamada sale bien, en la web 
+						<a href="http://slutcalls.herokuapp.com" target="_blank">http://slutcalls.herokuapp.com</a> tiene que añadirse el
+						nombre y el comentario. La respuesta de la llamada se tiene que mostrar en un alert, y en la consola
+						del navegador.
+ 					</h4>
+ 					<h4>
+ 						3.4 Escribe el nombre que escribiste en el 3.3 en el input con id 'name-put', y una info diferente
+ 						que la del 3.3 en el input con id 'info-put'. Al hacer click en el botón 'go-put', se tiene que hacer
+ 						una llamada PUT a <a href="">http://slutcalls.herokuapp.com/ironslut/</a>, con 'name' como parametro
+ 						en la url (despues de /ironslut), e 'info' en la llamada en JSON stringificado. Recargar la pagina
+ 						<a href="http://slutcalls.herokuapp.com" target="_blank">http://slutcalls.herokuapp.com</a> y observar el resultado.
+ 						La respuesta de la llamada se tiene que mostrar en un alert y en la consola del navegador.
+ 						Observar la respuesta del servidor en caso de que no exista el nombre introducido en el input.
+ 					</h4>
+ 					<h4>
+ 						3.5 Escribe el nombre que usaste en el 3.3 y 3.4 en el input con id 'name-delete'. Al hacer click en el
+ 						botón 'go-delete', se tiene que hacer una llamada DELETE a 
+ 						<a href="">http://slutcalls.herokuapp.com/ironslut/</a>, con el contenido del input como parametros
+ 						en la url. Recargar la pagina <a href="http://slutcalls.herokuapp.com" target="_blank">http://slutcalls.herokuapp.com</a> y observar el resultado. La respuesta de la llamada se tiene que mostrar en un alert
+ 						y en la consola del navegador. Observar la respuesta del servidor en caso de que no exista el nombre
+ 						introducido en el input.
+ 					</h4>
+ 					<div class="row"><h3 align="center">Javascript</h3></div>
+ 					<h4>
+ 						4. Escribe un programa que imprima el día y la hora actual en el siguiente formato:
+ 					</h4>
+ 					<kbd>output: Hoy es Jueves.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 								&nbsp;&nbsp;&nbsp;</kbd><br>
+ 					<kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hora actual: 2PM : 11 : 43</kbd>
+ 					<h4>
+ 						5. Escribe un programa que imprima la fecha actual. Se tiene que imprimir en los siguientes
+ 						formatos: mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yy.
+ 					</h4>
+ 					<h4>
+ 						6. Escribe un programa que pida al usuario un año en un alert con input, y devuelva otro alert
+ 						con true si es bisiesto, y false en caso contrario.
+ 					</h4>
+ 					<h4>
+ 						7. Escribe un programa que busque e imprima los años en los que el 1 de Enero haya sido Domingo
+ 						entre 2010 y 2050.
+ 					</h4>
+ 					<h4>
+ 						8. Escribe un guessing game. Pide al usuario un numero entre 1 y 10 a través de un input en un alert,
+ 						y que devuelva "Has acertado" en caso de acierto, y "Has fallado, era 8" en caso de fallo.
+ 					</h4>
+ 					<h4>
+ 						9. Escribe un programa que calcule los días que quedan hasta noche buena.
+ 					</h4>
+ 					<h4>
+ 						10. Escribe un programa que calcule la división y multiplicación de dos numeros. Se tiene que visualizar
+ 						en una vista html de la siguiente forma:
+ 					</h4>
+ 					<img src="files/exjquery/ej10javascript.png" style="border:solid 2px black" class="img-responsive">
+ 					<h4>
+ 						11. Escribe un programa que convierta temperaturas de centigrados a fahrenheit y viceversa.
+ 						El resultado se tiene que mostrar en una vista del estilo del ejercicio anterior. <br> 
+ 						[ formula : c/5 = (f-32)/9 ]
+ 					</h4>
+ 					<h4>
+ 						12. Escribe una función que invierta un numero.
+ 					</h4>
+ 					<kbd> input: &nbsp;x = 32243 </kbd><br>
+ 					<kbd> output: y = 34223 </kbd>
+ 					<h4>
+ 						13. Escribe una función que devuelva una string con sus letras en orden alfabético
+ 					</h4>
+ 					<kbd> input: &nbsp;&nbsp;str = 'slut' </kbd><br>
+ 					<kbd> output: &nbsp;res = 'lstu'</kbd>
+ 					<h4>
+ 						14. Escribe una función que reciba una string en minúsculas y que convierta la
+ 						primera letra de cada palabra en mayuscula.
+ 					</h4>
+ 					<h4>
+ 						15. Escribe una función que reciba una string y devuelva un numero que corresponda al
+ 						numero de vocales que hay en esa string.
+ 					</h4>
+					<h4>
+						16. Escribe una función que reciba un numero y devuelva true si es primo, en caso
+						contrario que devuelva false.
+					</h4>
+					<h4>
+						17. Escribe una función que reciba un argumento y devuelva su tipo. La función tiene que
+						poder diferenciar entre objetos, booleanos, funciones, numeros, strings, arrays y undefined.
+					</h4>
+					<h4>
+						18. Escribe una función que reciba un array de números y devuelva el segundo mas pequeño
+						y penúltimo más grande.
+					</h4>
+					<kbd> input: &nbsp;arr = [1,2,3,4,5]</kbd><br>
+					<kbd> output: res = [2, 4] &nbsp;&nbsp;&nbsp;&nbsp;</kbd>
+					<h4>
+						19. Escribe una función que devuelva true si un numero es perfecto.
+						Un numero es perfecto si la suma de sus divisores es igual al propio numero. Por ejemplo,
+						los divisores de 6 son 1, 2 y 3. 6 es perfecto por que 6 = 1 + 2 + 3
+					</h4>
+					<h4>
+						20. Escribe una función que reciba una cantidad en euros y devuelva la cantidad de los
+						centimos en monedas.
+					</h4>
+					<kbd>input: &nbsp;eur = 1.46 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</kbd><br>
+					<kbd>output: res = [25, 10, 10, 1]</kbd>
+					<h4>
+						21. Escribe una función que reciba un numero y que devuelva una string con caracteres 
+						randomizados y de longitud el numero recibido.
+					</h4>
+					<h4>
+						22. Escribe una función que reciba dos parametros: una string y un caracter. La función tiene que 
+						devolver el numero de veces que aparece ese caracter en la string.
+					</h4>
+					<kbd>input: &nbsp;char_times("ironslut course", "u") &nbsp;</kbd><br>
+					<kbd>output: 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</kbd>
+					<h4>
+						23. Escribe una función que reciba un array de numeros y lo devuelva ordenado en
+						orden decreciente, usando el método de ordenación 'Bubble sort'. Mas info  
+						<a href="http://stackoverflow.com/questions/11091434/using-the-bubble-sort-method-for-an-array-in-ruby"
+						 target="_blank">aqui</a>.
+					</h4>
+					<h4>
+						24. Escribe una función que devuelva el factorial de un número. El factorial
+						de 5 es 120, es decir, 1 x 2 x 3 x 4 x 5 = 120. Es factorial de 3 es 6, es decir,
+						1 x 2 x 3 = 6.
+					</h4>
+					<h4>
+						25. Escribe un programa que añada elementos en un array, y los muestre en una vista.
+						Los elementos se tienen que poder meter en un input en un html, y al hacer click
+						en un botón 'Add', se tienen que ir metiendo en el array. Al hacer click en el 
+						botón 'Display', se tiene que mostrar la lista de elementos metidos en el array
+						como en el siguiente ejemplo:
+					</h4>
+					<img src="files/exjquery/ej25javascript.png" style="border:solid 2px black" class="img-responsive">
+					<h4>
+						26. Escribe un programa que imprima en una vista el ancho y el alto del navegador.
+						Si la ventana del navegador se redimensiona, los valores se tienen que actualizar.
+					</h4>
+					<h4>
+						27. Escribe una función que reciba un objeto, y devuelva una lista con sus propiedades:
+					</h4>
+					<kbd>input: &nbsp;obj = {name: "pepe", edad: 28, ciudad: "garrucha"}</kbd><br>
+					<kbd>output: name, edad, ciudad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</kbd>
+					<h4>
+						28. Escribe una función que reciba un objeto, y elimine la segunda propiedad:
+					</h4>
+					<kbd>input: &nbsp;obj = {name: "pepe", edad: 28, ciudad: "garrucha"}</kbd><br>
+					<kbd>output: res = {name: "pepe", ciudad: "garrucha"} &nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;</kbd>
+					<h4>
+						29. Escribe un programa que cree un reloj y escriba la hora entera en la consola
+						cada segundo:
+					</h4>
+					<kbd>output: &nbsp;"14:30:42"</kbd><br>
+					<kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"14:30:43"</kbd><br>
+					<kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"14:30:44"</kbd>
+					<h4>
+						30. Escribe una función que reciba un objeto Date() con una fecha de nacimiento,
+						y calcule la edad:
+					</h4>
+					<kbd>input: &nbsp;calculate_age(birthday)</kbd><br>
+					<kbd>output: 32 years old &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</kbd>
+					<h4 style="margin-top:20px;text-align:justify;">
+						<b><u>Extra</u>:</b> TDD en Javascript! Descarga el siguiente archivo 
+						<a href="files/exjquery/jasmine-slut.zip">jasmine-slut.zip</a>. 
+						Hay un archivo 'SpecRunner.html' que hay que abrir con el navegador. Saldrá un 
+						menú con la lista de Tests, y al hacer click en ellos se lanzan. Tambien hay un botón
+						en la parte superior izquierda que permite lanzar todos los tests a la vez (run-all).
+						El objetivo es ir descomentando los tests uno a uno en el archivo 'koans.js' que se 
+						encuentra en la carpeta de 'spec'. Al descomentarlos, es posible que fallen. Hay
+						que corregir los tests, e ir probandolos en 'SpecRunner.html' hasta que pasen.
+						No es necesario ir comentando los tests solucionados. 
+						<small>Koans by <a href="http://www.carlosble.com/libro-tdd/?lang=es" target="_blank">Carlos Ble</a>.</small>
+					</h4>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div style="padding-bottom:100px;"></div>
+		</div>
+	</div>
+</body>
+</html>

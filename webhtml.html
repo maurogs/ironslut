@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ironslut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+		#ironslut-logo{
+			padding-top: 10px;
+			width: 140px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#slack-logo{
+			padding-top: 20px;
+		}
+		#ruby-logo{
+			padding-top: 27px;
+			width: 96%;
+		}
+		#replit-logo{
+			padding-top: 26px;
+			width: 92%;
+			border-style: none;
+			outline : none;
+		}
+		#css-logo{
+			padding-top: 18px;
+		}
+		#jquery-logo{
+			padding-top: 16px;
+		}
+		#jsfiddle-logo{
+			padding-top: 25px;
+		}
+		#menu{
+			padding-top: 26px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-5">
+					<div class="col-md-6 col-md-offset-6">
+						<div class="text-justify" id="menu">					
+							<h4><a href="html-exercises.html" style="color:#333;">EJERCICIOS</a></h4>
+							<h4><a href="webhtml.html" style="color:#333;">APUNTES</a></h4>
+							<h4><a href="videos.html" style="color:#333;">VIDEOS</a></h4>
+						</div>					
+					</div>					
+			</div>
+			<div class="col-xs-6 col-md-2">
+					<img src="images/ironslut_black.jpg" id="ironslut-logo" alt="Ironslut" class="img-responsive">				
+			</div>
+			<div class="hidden-xs hidden-sm col-md-5">
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://repl.it/languages" target="_blank">
+							<img src="images/replit.png" id="replit-logo" style="border:0!" class="img-responsive" alt="Repl.it">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.tutorialspoint.com/ruby/" target="_blank">
+							<img src="images/ruby-logo.png" id="ruby-logo" class="img-responsive" alt="Ruby">
+						</a>				
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://sluts-bitches.slack.com/messages/" target="_blank">
+							<img src="images/slack.png" id="slack-logo" class="img-responsive" alt="bitch-sluts channel">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://jsfiddle.net/" target="_blank">
+							<img src="images/jsfiddle_logo.png" id="jsfiddle-logo" class="img-responsive" alt="JSFIDDLE">
+						</a>						
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/jquery/jquery_get_started.asp" target="_blank">
+							<img src="images/jquery_logo.png" id="jquery-logo" class="img-responsive" alt="HTML5">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">
+							<img src="images/css_logo.png" id="css-logo" class="img-responsive" alt="CSS">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-xs-6 col-md-2 col-md-offset-1">
+						<h5 class="text-center">
+							<a href="apuntes.html" style="color:#333;">RUBY</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="advanced.html" style="color:#333;">HARD</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="webhtml.html" style="color:#333;"><b>HTML</b></a><span>/</span><a href="webcss.html" style="color:#333;">CSS</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="ruby2js.html" style="color:#333;">JAVASCRIPT</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="sinatra.html" style="color:#333">SINATRA</a>
+						</h5>
+					</div>
+				</div>				
+			</div>			
+		</div>
+		
+
+		<div class="row">
+			<div style="padding-top:20px;">
+				<div class="col-md-4 col-md-offset-2">	
+					<div>						
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#004a43; '>&lt;!DOCTYPE html></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>html</span><span style='color:#0057a6; '>></span>
+ <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>title</span><span style='color:#0057a6; '>></span>Titulo<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>title</span><span style='color:#0057a6; '>></span>
+ <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span>
+ <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>h1</span><span style='color:#0057a6; '>></span>Una Cabecera<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>h1</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>p</span><span style='color:#0057a6; '>></span>El primer parrafo<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>p</span><span style='color:#0057a6; '>></span>
+ <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>html</span><span style='color:#0057a6; '>></span>
+</pre>
+					</div>
+				</div>
+				<div class="col-md-4">
+<pre>Estructura general de un documento html.
+En <span>&lt;</span><span>title</span><span>></span> se establece el titulo que 
+aparecerá en la pestaña del navegador.
+
+En el <span>&lt;</span><span>head</span><span>></span> se establecen opciones
+generales de la pagina: librerías, apis,
+y se incluyen archivos .css y .js externos.
+
+En el <span>&lt;</span><span>body</span><span>></span> se añaden el resto de 
+<span>&lt;</span><span>tags</span><span>></span> que establecen el contenido web.
+</pre>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div style="padding-top:10px;">
+				<div class="col-md-4 col-md-offset-2">	
+					<div>						
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#004a43; '>&lt;</span><span style='color:#200080; font-weight:bold; '>!DOCTYPE html</span>></span>
+</pre>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<pre>Declara documento html5.</pre>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+				<div>						
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>html</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>html</span><span style='color:#0057a6; '>></span>
+</pre>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<pre>Crea un documento html.</pre>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+				<div>						
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span>
+</pre>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<pre>Establece info. que no se enseña en la web.</pre>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+				<div>						
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#0057a6; '>></span>
+</pre>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<pre>Contenido de la web.</pre>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+				<div>						
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#474796; '> </span><span style='color:#074726; '>bgcolor</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"pink"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#474796; '> </span><span style='color:#074726; '>text</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"black"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#474796; '> </span><span style='color:#074726; '>link</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"blue"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#474796; '> </span><span style='color:#074726; '>vlink</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"#ff0000"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#474796; '> </span><span style='color:#074726; '>alink</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"#00ff00"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#474796; '> </span><span style='color:#074726; '>ondragstart</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"return false"</span><span style='color:#474796; '> </span><span style='color:#074726; '>
+&nbsp;&nbsp;&nbsp;&nbsp;onselectstart</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"return false"</span><span style='color:#0057a6; '>></span>
+</pre>
+				</div>
+			</div>
+			<div class="col-md-4">
+<pre>Establece todo el fondo en rosa.
+Establece el color del texto en negro.
+Establece los enlaces (links) en azul.
+Establece enlaces vistos en rojo (hex).
+Establece color al hacer click en link.
+Deshabilita en toda la web la seleccion
+de texto con el raton y el teclado.
+</pre>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+				<div>						
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>h6</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>h1</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>h6</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>h1</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>strong</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>strong</span><span style='color:#0057a6; '>></span> ó <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>b</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>b</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>i</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>i</span><span style='color:#0057a6; '>></span> ó <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>em</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>em</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>tt</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>tt</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>font</span><span style='color:#474796; '> </span><span style='color:#074726; '>size</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"3"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>font</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>font</span><span style='color:#474796; '> </span><span style='color:#074726; '>color</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"green"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>font</span><span style='color:#0057a6; '>></span>
+</pre>
+				</div>
+			</div>
+			<div class="col-md-4">
+<pre>Crea el titulo (cabecera) mas grande.
+Crea el titulo o cabecera mas pequeño.
+Pone el texto en <b>negrita</b>.
+Pone el texto en <i>cursiva</i>.
+Crea un texto con estilo <tt>teletype</tt>
+Establece el tamaño del texto de 1 a 7.
+Establece el color del texto.
+</pre>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>a</span><span style='color:#474796; '> </span><span style='color:#074726; '>href</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"www.ironslut.com"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>a</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>a</span><span style='color:#474796; '> </span><span style='color:#074726; '>href</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"mailto:tucli@ironslut.com"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>a</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>a</span><span style='color:#474796; '> </span><span style='color:#074726; '>href</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"URL"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>img</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"foto.jpg"</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>a</span><span style='color:#0057a6; '>></span>
+</pre>
+				</div>
+				<div class="col-md-4">
+<pre>Crea un link (ó hyperlink).
+Crea un link para correos email.
+Añade un link a una imagen.
+</pre>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#474796; '> </span><span style='color:#074726; '>align</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"left"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>span</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>span</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>img</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"imagen.png"</span><span style='color:#0057a6; '>></span> 
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>img</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"name"</span><span style='color:#474796; '> </span><span style='color:#074726; '>align</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"left"</span><span style='color:#0057a6; '>></span> 
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>img</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"name"</span><span style='color:#474796; '> </span><span style='color:#074726; '>border</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"1"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>p</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>p</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>p</span><span style='color:#474796; '> </span><span style='color:#074726; '>align</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"left"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>p</span><span style='color:#474796; '> </span><span style='color:#074726; '>align</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"center"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>p</span><span style='color:#474796; '> </span><span style='color:#074726; '>align</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"right"</span><span style='color:#0057a6; '>></span>
+
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>br</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>hr</span><span style='color:#0057a6; '>/></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>hr</span><span style='color:#474796; '> </span><span style='color:#074726; '>size</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"3"</span><span style='color:#0057a6; '>/></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>hr</span><span style='color:#474796; '> </span><span style='color:#074726; '>width</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"80%"</span><span style='color:#0057a6; '>/></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#0057a6; '>></span>&amp;nbsp;<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#0057a6; '>></span>
+</pre>
+			</div>
+			<div class="col-md-4">
+<pre>Añade un bloque html, usado para css.
+Sitúa el bloque (left, bottom, top, center)
+Añade un bloque lineal, no ocupa espacio.
+Añade una imagen.
+Sitúa una imagen a la izquierda.
+Añade un borde a una imagen de grosor 1.
+Crea un nuevo párrafo y salta a la linea.
+Sitúa el texto a la izquiera.
+Sitúa el texto en el centro.
+Sitúa el texto a la derecha.
+
+Inserta un salto de linea.
+Inserta una barra horizontal.
+Establece un tamaño a una barra horizontal.
+Establece tamaño de la barra en porcentaje.
+Inserta un espacio en el contenido.
+</pre>	
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>ol</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>ol</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>ul</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>ul</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>li</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>li</span><span style='color:#0057a6; '>></span>
+</pre>
+			</div>
+			<div class="col-md-4">
+<pre>Crea una lista numerada. (requiere li)
+Crea una lista con puntos. (requiere li)
+Añade elementos a la lista.
+</pre>	
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>table</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>table</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>tr</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>tr</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>td</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>td</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>th</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>th</span><span style='color:#0057a6; '>></span>
+
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>table</span><span style='color:#474796; '> </span><span style='color:#074726; '>border</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"1"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>table</span><span style='color:#474796; '> </span><span style='color:#074726; '>cellspacing</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"1"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>table</span><span style='color:#474796; '> </span><span style='color:#074726; '>cellpadding</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"1"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>table</span><span style='color:#474796; '> </span><span style='color:#074726; '>width</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"500"</span><span style='color:#474796; '> or </span><span style='color:#1060b6; '>"80%"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>tr</span><span style='color:#474796; '> </span><span style='color:#074726; '>align</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"left"</span><span style='color:#0057a6; '>></span> or <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>td</span><span style='color:#474796; '> </span><span style='color:#074726; '>align</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"left"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>tr</span><span style='color:#474796; '> </span><span style='color:#074726; '>valign</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"top"</span><span style='color:#0057a6; '>></span> or <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>td</span><span style='color:#474796; '> </span><span style='color:#074726; '>valign</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"top"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>td</span><span style='color:#474796; '> </span><span style='color:#074726; '>colspan</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"2"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>td</span><span style='color:#474796; '> </span><span style='color:#074726; '>rowspan</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"4"</span><span style='color:#0057a6; '>></span>
+</pre>
+			</div>
+			<div class="col-md-4">
+<pre>Crea una tabla. 
+Añade una fila a la tabla. (requiere td)
+Añade una columna a la tabla.
+Añade una fila con negritas y txt centrado.
+
+Establece el ancho del borde de la tabla.
+Establece el espacio entre celdas.
+Espacio entre el contenido y los bordes.
+Establece el ancho total de la tabla.
+Establece el centrado de las celdas.
+Establece el centrado vertical.
+La celda ocupa 2 columnas.
+La celda ocupa 4 filas.
+</pre>	
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">	
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>form</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>form</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>select</span><span style='color:#474796; '> </span><span style='color:#074726; '>name</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"NAME"</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>select</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>select</span><span style='color:#474796; '> </span><span style='color:#074726; '>name</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"NAME"</span><span style='color:#474796; '> </span><span style='color:#074726; '>size</span><span style='color:#308080; '>=</span><span style='color:#008c00; '>5</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>select</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>option</span><span style='color:#0057a6; '>></span>
+
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>input</span><span style='color:#474796; '> </span><span style='color:#074726; '>type</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"text"</span><span style='color:#474796; '> </span><span style='color:#074726; '>name</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"NAME"</span><span style='color:#474796; '> </span><span style='color:#074726; '>size</span><span style='color:#308080; '>=</span><span style='color:#008c00; '>20</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>textarea</span><span style='color:#474796; '> </span><span style='color:#074726; '>cols</span><span style='color:#308080; '>=</span><span style='color:#008c00; '>40</span><span style='color:#474796; '> </span><span style='color:#074726; '>rows</span><span style='color:#308080; '>=</span><span style='color:#008c00; '>8</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>textarea</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>input</span><span style='color:#474796; '> </span><span style='color:#074726; '>type</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"checkbox"</span><span style='color:#474796; '> </span><span style='color:#074726; '>name</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"NAME"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>input</span><span style='color:#474796; '> </span><span style='color:#074726; '>type</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"radio"</span><span style='color:#474796; '> </span><span style='color:#074726; '>name</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"NAME"</span><span style='color:#474796; '> </span><span style='color:#074726; '>value</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"x"</span><span style='color:#0057a6; '>></span>
+
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>input</span><span style='color:#474796; '> </span><span style='color:#074726; '>type</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"submit"</span><span style='color:#474796; '> </span><span style='color:#074726; '>value</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"NAME"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>input</span><span style='color:#474796; '> </span><span style='color:#074726; '>type</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"image"</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"name.gif"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>input</span><span style='color:#474796; '> </span><span style='color:#074726; '>type</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"reset"</span><span style='color:#0057a6; '>></span>
+</pre>
+			</div>
+			<div class="col-md-4">
+<pre>Crea un formulario.
+Crea un menu desplegable con su nombre.
+Establece el numero de elementos.
+Añade un elemento al desplegable.
+
+Crea un area de texto (input) de 20 chars.
+Añade un area de texto con sus filas y cols
+Añade un checkbox clickable.
+Añade botones de radio.
+
+Añade un boton de "submit".
+Crea un boton de submit con una imagen.
+Añade un boton "reset".
+</pre>	
+			</div>
+		</div>
+		
+
+		<div class="row">
+			<div style="padding-bottom:100px;"></div>
+		</div>
+	</div>
+</body>
+</html>

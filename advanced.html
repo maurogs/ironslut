@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ironslut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+		#ironslut-logo{
+			padding-top: 10px;
+			width: 140px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#slack-logo{
+			padding-top: 20px;
+		}
+		#ruby-logo{
+			padding-top: 27px;
+			width: 96%;
+		}
+		#replit-logo{
+			padding-top: 26px;
+			width: 92%;
+			border-style: none;
+			outline : none;
+		}
+		#css-logo{
+			padding-top: 18px;
+		}
+		#jquery-logo{
+			padding-top: 16px;
+		}
+		#jsfiddle-logo{
+			padding-top: 25px;
+		}
+		#menu{
+			padding-top: 26px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-5">
+					<div class="col-md-6 col-md-offset-6">
+						<div class="text-justify" id="menu">					
+							<h4><a href="advanced-exercises.html" style="color:#333;">EJERCICIOS</a></h4>
+							<h4><a href="advanced.html" style="color:#333;">APUNTES</a></h4>
+							<h4><a href="videos.html" style="color:#333;">VIDEOS</a></h4>
+						</div>					
+					</div>					
+			</div>
+			<div class="col-xs-6 col-md-2">
+					<img src="images/ironslut_black.jpg" id="ironslut-logo" alt="Ironslut" class="img-responsive">				
+			</div>
+			<div class="hidden-xs hidden-sm col-md-5">
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://repl.it/languages" target="_blank">
+							<img src="images/replit.png" id="replit-logo" style="border:0!" class="img-responsive" alt="Repl.it">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.tutorialspoint.com/ruby/" target="_blank">
+							<img src="images/ruby-logo.png" id="ruby-logo" class="img-responsive" alt="Ruby">
+						</a>				
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://sluts-bitches.slack.com/messages/" target="_blank">
+							<img src="images/slack.png" id="slack-logo" class="img-responsive" alt="bitch-sluts channel">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://jsfiddle.net/" target="_blank">
+							<img src="images/jsfiddle_logo.png" id="jsfiddle-logo" class="img-responsive" alt="JSFIDDLE">
+						</a>						
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/jquery/jquery_get_started.asp" target="_blank">
+							<img src="images/jquery_logo.png" id="jquery-logo" class="img-responsive" alt="HTML5">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">
+							<img src="images/css_logo.png" id="css-logo" class="img-responsive" alt="CSS">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-xs-6 col-md-2 col-md-offset-1">
+						<h5 class="text-center">
+							<a href="apuntes.html" style="color:#333;">RUBY</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="advanced.html" style="color:#333;"><b>HARD</b></a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="webhtml.html" style="color:#333;">HTML</a><span>/</span><a href="webcss.html" style="color:#333;">CSS</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="ruby2js.html" style="color:#333;">JAVASCRIPT</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<h5 class="text-center">
+							<a href="sinatra.html" style="color:#333;">SINATRA</a>
+						</h5>
+					</div>
+				</div>				
+			</div>			
+		</div>
+
+		<div class="row">
+			<div style="padding-top:10px;">
+				<div class="col-md-4 col-md-offset-2">					
+					<h5 class="text-center">Funciones I</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Crear una funcion</span>
+   <span style="color:#e28964">def</span> [nombre]([parametros])
+      [lógica de la funcion]
+   <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo Básico</span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">saludo</span>(<span style="color:#3e87e3">name</span>)
+    <span style="color:#e28964">return</span> <span style="color:#65b042">"Hi, <span style="color:#daefa3">#{<span style="color:#3e87e3">name</span>}</span>"</span>
+  <span style="color:#e28964">end</span>
+  puts saludo(<span style="color:#65b042">"Tony"</span>)
+  <span style="color:#e28964">></span> <span style="color:#65b042">"Hi, Tony"</span>
+<span style="color:#aeaeae;font-style:italic">  # las funciones tienen que estar</span>
+<span style="color:#aeaeae;font-style:italic">  # situadas en la parte de arriba</span>
+<span style="color:#aeaeae;font-style:italic">  # del código. Abajo la lógica general.</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Ejemplo con 2 parametros</span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">sumar</span>(<span style="color:#3e87e3">num1, num2</span>)
+    <span style="color:#65b042">"resultado: <span style="color:#daefa3">#{<span style="color:#3e87e3">num1</span> <span style="color:#e28964">+</span> <span style="color:#3e87e3">num2</span>}</span>"</span>
+  <span style="color:#e28964">end</span>
+  numero1, numero2 <span style="color:#e28964">=</span> <span style="color:#3387cc">1</span>, <span style="color:#3387cc">2</span>
+  puts sumar(<span style="color:#3e87e3">numero1</span>, <span style="color:#3e87e3">numero2</span>)
+  <span style="color:#e28964">></span> <span style="color:#65b042">"resultado: 3"</span>
+<span style="color:#aeaeae;font-style:italic">  # En este ejemplo, "numero1" corresponde</span>
+<span style="color:#aeaeae;font-style:italic">  # a "num1" en la funcion. Lo mismo para </span>
+<span style="color:#aeaeae;font-style:italic">  # "numero2" y "num2". </span>
+</pre>
+				</div>
+
+				<div class="col-md-4">
+					<h5 class="text-center">Funciones II</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Ejemplo con strings</span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">mas_larga</span>(<span style="color:#3e87e3">str1, str2</span>)
+    <span style="color:#e28964">if</span> str1 <span style="color:#e28964">></span> str2
+      str1
+    <span style="color:#e28964">else</span>
+      str2
+    <span style="color:#e28964">end</span>
+  <span style="color:#e28964">end</span>
+  a <span style="color:#e28964">=</span> <span style="color:#65b042">"eres un tupi"</span>
+  b <span style="color:#e28964">=</span> <span style="color:#65b042">"you are a whore"</span>
+  puts <span style="color:#65b042">"Resultado: <span style="color:#daefa3">#{mas_larga(a, b)}</span>"</span>
+  <span style="color:#e28964">></span> <span style="color:#65b042">"Resultado: you are a whore"</span> 
+
+<span style="color:#aeaeae;font-style:italic"> # Variables globales</span>
+  <span style="color:#3e87e3">@variable_global</span> <span style="color:#e28964">=</span> <span style="color:#3387cc">0</span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">incremento</span>
+    <span style="color:#3e87e3">@variable_global</span> <span style="color:#e28964">+=</span> <span style="color:#3387cc">1</span>
+  <span style="color:#e28964">end</span>
+  <span style="color:#3387cc">10</span>.times <span style="color:#e28964">do</span>
+    incremento
+  <span style="color:#e28964">end</span>
+  puts <span style="color:#3e87e3">@variable_global</span> <span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#3387cc">10</span>
+<span style="color:#aeaeae;font-style:italic">  # Para que una variable que esta</span>
+<span style="color:#aeaeae;font-style:italic">  # fuera de una funcion pueda usarse</span>
+<span style="color:#aeaeae;font-style:italic">  # en ella, tiene que tener un @</span>
+</pre>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-4 col-md-offset-2">
+				<h5 class="text-center">Clases y Objetos I</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"> # Crear una clase</span>
+ <span style="color:#e28964">class</span> <span style="text-decoration:underline">Car</span>
+   [<span style="color:#3e87e3">METODOS</span>]
+
+   <span style="color:#e28964">def</span> <span style="color:#89bdff">claxon</span>
+     puts <span style="color:#65b042">"Beeeeeep!"</span>
+   <span style="color:#e28964">end</span>
+ <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Crear un objeto</span>
+ c <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span>
+ puts c.class  <span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"Car"</span>
+<span style="color:#aeaeae;font-style:italic"> # 'c' es un objeto o instancia</span>
+<span style="color:#aeaeae;font-style:italic"> # de la clase 'Car'. La clase 'Car'</span>
+<span style="color:#aeaeae;font-style:italic"> # puede tener infinitos objetos</span>
+
+ puts c.claxon <span style="color:#e28964">-</span><span style="color:#e28964">></span> <span style="color:#65b042">"Beeeeeeep!"</span>
+<span style="color:#aeaeae;font-style:italic"> # Todos los objetos de la clase 'Car'</span>
+<span style="color:#aeaeae;font-style:italic"> # van a tener todas las "funciones"</span>
+<span style="color:#aeaeae;font-style:italic"> # (metodos) de la clase 'Car'</span>
+
+<span style="color:#aeaeae;font-style:italic"> # El metodo initialize</span>
+ <span style="color:#e28964">class</span> <span style="text-decoration:underline">Car</span>
+   <span style="color:#3e87e3">@@total</span> <span style="color:#e28964">=</span> <span style="color:#3387cc">0</span>
+   <span style="color:#e28964">def</span> <span style="color:#89bdff">initialize</span>(<span style="color:#3e87e3">brand, name, color</span>)
+     <span style="color:#3e87e3">@brand</span> <span style="color:#e28964">=</span> brand
+     <span style="color:#3e87e3">@name</span> <span style="color:#e28964">=</span> name
+     <span style="color:#3e87e3">@color</span> <span style="color:#e28964">=</span> color
+     <span style="color:#3e87e3">@@total</span> <span style="color:#e28964">=</span> <span style="color:#3e87e3">@@total</span> <span style="color:#e28964">+</span> <span style="color:#3387cc">1</span>
+   <span style="color:#e28964">end</span>
+
+   <span style="color:#e28964">def</span> <span style="color:#89bdff">claxon</span>
+     puts <span style="color:#65b042">"Beeeeep!"</span>
+   <span style="color:#e28964">end</span>
+
+   <span style="color:#e28964">def</span> <span style="color:#89bdff">get_details</span>
+     puts <span style="color:#65b042">"<span style="color:#daefa3">#{<span style="color:#8a9a95">@brand</span>}</span> <span style="color:#daefa3">#{<span style="color:#8a9a95">@name</span>}</span> in <span style="color:#daefa3">#{<span style="color:#8a9a95">@color</span>}</span>"</span>
+   <span style="color:#e28964">end</span>
+
+   <span style="color:#e28964">def</span> <span style="color:#89bdff">get_brand</span>
+     puts <span style="color:#3e87e3">@brand</span>
+   <span style="color:#e28964">end</span>
+
+   <span style="color:#e28964">def</span> <span style="color:#89bdff">get_name</span>
+     puts <span style="color:#3e87e3">@name</span>
+   <span style="color:#e28964">end</span>
+
+   <span style="color:#e28964">def</span> <span style="color:#89bdff">total_cars</span>
+     puts <span style="color:#65b042">"Hay <span style="color:#daefa3">#{<span style="color:#8a9a95">@@total</span>}</span> coches."</span>
+   <span style="color:#e28964">end</span>
+ <span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Creamos 3 objetos de la clase 'Car'</span>
+ ca1 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span>(<span style="color:#65b042">"Renault"</span>, <span style="color:#65b042">"Megane"</span>, <span style="color:#65b042">"Blue"</span>)
+ ca2 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span>(<span style="color:#65b042">"Mcds"</span>, <span style="color:#65b042">"Clase A"</span>, <span style="color:#65b042">"Black"</span>)
+ ca3 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span>(<span style="color:#65b042">"BMW"</span>, <span style="color:#65b042">"Z3 Coupe"</span>, <span style="color:#65b042">"Gold"</span>)
+
+<span style="color:#aeaeae;font-style:italic"> # El metodo 'initialize' se llama </span>
+<span style="color:#aeaeae;font-style:italic"> # automáticamente cuando creais un objeto </span>
+<span style="color:#aeaeae;font-style:italic"> # o instancia de la clase 'Car'. Se llama </span>
+<span style="color:#aeaeae;font-style:italic"> # 'constructor', ya que establece ciertas </span>
+<span style="color:#aeaeae;font-style:italic"> # caracteristicas al objeto creado. </span>
+<span style="color:#aeaeae;font-style:italic"> # Al crear un objeto, estamos obligados a </span>
+<span style="color:#aeaeae;font-style:italic"> # enviar el 'brand', 'name' y 'color', si </span>
+<span style="color:#aeaeae;font-style:italic"> # no, no se creará el objeto (error).</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Acceder a los detalles de cada objeto.</span>
+ car1.get_details
+<span style="color:#aeaeae;font-style:italic">  # > "Renault Megane in Blue"</span>
+ car2.get_details
+<span style="color:#aeaeae;font-style:italic">  # > "Mercedes Clase A in Black"</span>
+ car3.get_details
+<span style="color:#aeaeae;font-style:italic">  # > "BMW Z3 Coupe in Gold"</span>
+ car1.get_brand
+<span style="color:#aeaeae;font-style:italic">  # > "Renault"</span>
+ car2.get_name
+<span style="color:#aeaeae;font-style:italic">  # > "Clase A"</span>
+ puts <span style="color:#65b042">"<span style="color:#daefa3">#{<span style="color:#9b859d">Car3</span>.brand}</span> <span style="color:#daefa3">#{<span style="color:#9b859d">Car3</span>.name}</span>"</span>
+<span style="color:#aeaeae;font-style:italic">  # > "BMW Z3 Coupe"</span>
+
+ car_3.total_cars
+<span style="color:#aeaeae;font-style:italic">  # > "Hay 3 coches."</span>
+
+<span style="color:#aeaeae;font-style:italic"> # Las variables de clase (como @@total) </span>
+<span style="color:#aeaeae;font-style:italic"> # son variables que comparten todos los </span>
+<span style="color:#aeaeae;font-style:italic"> # objetos de la clase 'Car'. Es una </span>
+<span style="color:#aeaeae;font-style:italic"> # variable que va contabilizando cada </span>
+<span style="color:#aeaeae;font-style:italic"> # objeto creado, y lleva una cuenta total </span>
+<span style="color:#aeaeae;font-style:italic"> # de los coches, y su valor es el mismo </span>
+<span style="color:#aeaeae;font-style:italic"> # en todos los objetos de 'Car'. A </span>
+<span style="color:#aeaeae;font-style:italic"> # diferencia de las variables de </span>
+<span style="color:#aeaeae;font-style:italic"> # instancia (@brand), estas son </span>
+<span style="color:#aeaeae;font-style:italic"> # diferentes para cada objeto (instancia).</span>
+</pre>
+			</div>
+
+			<div class="col-md-4">
+				<h5 class="text-center">Clases y Objetos II</h5>
+<pre style="background:#000;color:#f8f8f8"><span style="color:#aeaeae;font-style:italic"># Método Accessor</span>
+<span style="color:#e28964">class</span> <span style="text-decoration:underline">Car</span>
+  <span style="color:#e28964">attr_accessor</span> <span style="color:#3387cc">:color</span>, <span style="color:#3387cc">:year</span>
+
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">initialize</span>(<span style="color:#3e87e3">color, year</span>)
+    <span style="color:#3e87e3">@color</span> <span style="color:#e28964">=</span> color
+    <span style="color:#3e87e3">@year</span> <span style="color:#e28964">=</span> year
+  <span style="color:#e28964">end</span>
+<span style="color:#e28964">end</span>
+car_1 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span> <span style="color:#65b042">"yellow"</span>
+car_2 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span> <span style="color:#65b042">"brown"</span>
+<span style="color:#aeaeae;font-style:italic"># Por defecto, no podemos acceder a las </span>
+<span style="color:#aeaeae;font-style:italic"># variables de instancia (@color, @year) </span>
+<span style="color:#aeaeae;font-style:italic"># de cada objeto. Usamos 'attr_accessor' </span>
+<span style="color:#aeaeae;font-style:italic"># para dar acceso a ellas. Antes usabamos</span>
+<span style="color:#aeaeae;font-style:italic"># 'car.get_details' para obtener los </span>
+<span style="color:#aeaeae;font-style:italic"># detalles del coche y con 'attr_accesor' </span>
+<span style="color:#aeaeae;font-style:italic"># podeis acceder así:</span>
+puts car_1.color <span style="color:#aeaeae;font-style:italic"># --> "yellow"</span>
+puts car_2.color <span style="color:#aeaeae;font-style:italic"># --> "brown"</span>
+
+<span style="color:#aeaeae;font-style:italic"># Tambien podeis editar el color de un </span>
+<span style="color:#aeaeae;font-style:italic"># objeto en concreto:</span>
+car_2.color <span style="color:#e28964">=</span> <span style="color:#65b042">"red"</span>
+puts car_2.color <span style="color:#aeaeae;font-style:italic"># --> "red"</span>
+
+<span style="color:#aeaeae;font-style:italic"># Herencia</span>
+<span style="color:#e28964">class</span> <span style="text-decoration:underline">Vehicle</span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">initialize</span>(<span style="color:#3e87e3">color</span>)
+    <span style="color:#3e87e3">@color</span> <span style="color:#e28964">=</span> color
+  <span style="color:#e28964">end</span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">details</span>
+    puts <span style="color:#65b042">"Este vehiculo es <span style="color:#daefa3">#{<span style="color:#8a9a95">@color</span>}</span>"</span>
+  <span style="color:#e28964">end</span>
+<span style="color:#e28964">end</span>
+
+<span style="color:#e28964">class</span> <span style="text-decoration:underline">Elevator<span style="color:#9b5c2e;font-style:italic"> &lt; Vehicle</span></span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">initialize</span>(<span style="color:#3e87e3">color</span>)
+    <span style="color:#e28964">super</span>(color)
+  <span style="color:#e28964">end</span>
+<span style="color:#e28964">end</span>
+
+<span style="color:#e28964">class</span> <span style="text-decoration:underline">Car<span style="color:#9b5c2e;font-style:italic"> &lt; Vehicle</span></span>
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">initialize</span>(<span style="color:#3e87e3">color, transmission</span>)
+    <span style="color:#e28964">super</span>(color)
+    <span style="color:#3e87e3">@transmission</span> <span style="color:#e28964">=</span> transmission
+  <span style="color:#e28964">end</span>
+<span style="color:#e28964">end</span>
+
+<span style="color:#aeaeae;font-style:italic"># Los coches comparten caracteristicas </span>
+<span style="color:#aeaeae;font-style:italic"># con los vehiculos en general, como por </span>
+<span style="color:#aeaeae;font-style:italic"># ejemplo el color. Pero hay </span>
+<span style="color:#aeaeae;font-style:italic"># caracteristicas de los coches, que no</span>
+<span style="color:#aeaeae;font-style:italic"># comparten con los vehiculos, como la </span>
+<span style="color:#aeaeae;font-style:italic"># presencia de ruedas, o la transmisión. </span>
+<span style="color:#aeaeae;font-style:italic"># La herencia sirve para poner en común </span>
+<span style="color:#aeaeae;font-style:italic"># las caracteristicas en una clase padre</span>
+<span style="color:#aeaeae;font-style:italic"># 'Vehiculo', para no repetir </span>
+<span style="color:#aeaeae;font-style:italic"># innecesariamente partes del código.</span>
+
+car1 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span> <span style="color:#65b042">"silver"</span>, <span style="color:#65b042">"automatic"</span>
+puts car1.details 
+<span style="color:#aeaeae;font-style:italic"> # --> "Este vehiculo es silver"</span>
+
+elev <span style="color:#e28964">=</span> <span style="color:#9b859d">Elevator</span>.<span style="color:#e28964">new</span> <span style="color:#65b042">"green"</span>
+puts elev.detaiils
+<span style="color:#aeaeae;font-style:italic"> # --> "Este vehiculo es green"</span>
+
+<span style="color:#aeaeae;font-style:italic"># Método de Clase "self"</span>
+<span style="color:#e28964">class</span> <span style="text-decoration:underline">Car</span>
+  <span style="color:#e28964">attr_accessor</span> <span style="color:#3387cc">:color</span>
+  <span style="color:#3e87e3">@@total</span> <span style="color:#e28964">=</span> <span style="color:#3387cc">0</span>
+
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">self.total</span>
+    <span style="color:#e28964">return</span> <span style="color:#3e87e3">@@total</span>
+  <span style="color:#e28964">end</span>
+
+  <span style="color:#e28964">def</span> <span style="color:#89bdff">initialize</span>(<span style="color:#3e87e3">color</span>)
+    <span style="color:#3e87e3">@color</span> <span style="color:#e28964">=</span> color
+    <span style="color:#3e87e3">@@total</span> <span style="color:#e28964">+=</span> <span style="color:#3387cc">1</span>
+  <span style="color:#e28964">end</span>
+<span style="color:#e28964">end</span>
+
+car1 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span> <span style="color:#65b042">"red"</span>
+car2 <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.<span style="color:#e28964">new</span> <span style="color:#65b042">"blue"</span>
+num <span style="color:#e28964">=</span> <span style="color:#9b859d">Car</span>.total
+puts <span style="color:#65b042">"Tenemos un total de <span style="color:#daefa3">#{num}</span> coches."</span>
+<span style="color:#aeaeae;font-style:italic"># El método "self.total" es un método </span>
+<span style="color:#aeaeae;font-style:italic"># de la clase 'Car'. Para invocarlo, hay</span>
+<span style="color:#aeaeae;font-style:italic"># que hacer referencia a la clase y no</span>
+<span style="color:#aeaeae;font-style:italic"># al objeto:</span>
+puts <span style="color:#65b042">"Numero de coches: <span style="color:#daefa3">#{<span style="color:#9b859d">Car</span>.total}</span>"</span>
+<span style="color:#aeaeae;font-style:italic"> # -> "Numero de coches: 2"</span>
+</pre>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div style="padding-bottom:100px;"></div>
+		</div>
+	</div>
+</body>
+</html>

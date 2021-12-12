@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ironslut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+		#ironslut-logo{
+			padding-top: 10px;
+			width: 140px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#slack-logo{
+			padding-top: 20px;
+		}
+		#ruby-logo{
+			padding-top: 27px;
+			width: 96%;
+		}
+		#replit-logo{
+			padding-top: 26px;
+			width: 92%;
+			border-style: none;
+			outline : none;
+		}
+		#css-logo{
+			padding-top: 18px;
+		}
+		#jquery-logo{
+			padding-top: 16px;
+		}
+		#jsfiddle-logo{
+			padding-top: 25px;
+		}
+		#menu{
+			padding-top: 26px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-5">
+					<div class="col-md-6 col-md-offset-6">
+						<div class="text-justify" id="menu">					
+							<h4><a href="index.html" style="color:#333;">EJERCICIOS</a></h4>
+							<h4><a href="apuntes.html" style="color:#333;">APUNTES</a></h4>
+							<h4><a href="videos.html" style="color:#333;">VIDEOS</a></h4>
+						</div>					
+					</div>					
+			</div>
+			<div class="col-xs-6 col-md-2">
+					<img src="images/ironslut_black.jpg" id="ironslut-logo" alt="Ironslut" class="img-responsive">				
+			</div>
+			<div class="hidden-xs hidden-sm col-md-5">
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://repl.it/languages" target="_blank">
+							<img src="images/replit.png" id="replit-logo" style="border:0!" class="img-responsive" alt="Repl.it">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.tutorialspoint.com/ruby/" target="_blank">
+							<img src="images/ruby-logo.png" id="ruby-logo" class="img-responsive" alt="Ruby">
+						</a>				
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://sluts-bitches.slack.com/messages/" target="_blank">
+							<img src="images/slack.png" id="slack-logo" class="img-responsive" alt="bitch-sluts channel">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4 col-md-2 col-md-offset-2">
+						<a href="https://jsfiddle.net/" target="_blank">
+							<img src="images/jsfiddle_logo.png" id="jsfiddle-logo" class="img-responsive" alt="JSFIDDLE">
+						</a>						
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/jquery/jquery_get_started.asp" target="_blank">
+							<img src="images/jquery_logo.png" id="jquery-logo" class="img-responsive" alt="HTML5">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">
+							<img src="images/css_logo.png" id="css-logo" class="img-responsive" alt="CSS">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-xs-6 col-sm-2 col-sm-offset-1">
+						<h5 class="text-center">
+							<a href="apuntes.html" style="color:#333;">RUBY</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="advanced.html" style="color:#333;">HARD</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="webhtml.html" style="color:#333;">HTML</a><span>/</span><a href="webcss.html" style="color:#333;">CSS</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="ruby2js.html" style="color:#333;">JAVASCRIPT</a>
+						</h5>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h5 class="text-center">
+							<a href="sinatra.html" style="color:#333;"><b>SINATRA</b></a>
+						</h5>
+					</div>
+				</div>			
+			</div>			
+		</div>
+
+		<div class="row">
+			<div style="padding-top:10px;">
+				<div class="col-md-3 col-md-offset-2">					
+					<h5 class="text-center">Ejemplo Básico</h5>
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#595979; '>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# app.rb</span>
+
+  require <span style='color:#1060b6; '>'sinatra'</span>
+
+  set :<span style='color:#005fd2; '>port</span><span style='color:#308080; '>,</span> <span style='color:#008c00; '>3000</span>
+  set :<span style='color:#005fd2; '>bind</span><span style='color:#308080; '>,</span> <span style='color:#1060b6; '>'0.0.0.0’</span>
+<span style='color:#1060b6; '></span>
+<span style='color:#1060b6; '>&#xa0;&#xa0;get '</span><span style='color:#308080; '>/</span><span style='color:#1060b6; '>' do</span>
+<span style='color:#1060b6; '>&#xa0;&#xa0;&#xa0;&#xa0;'</span>Hello world!<span style='color:#1060b6; '>'</span>
+<span style='color:#1060b6; '>&#xa0;&#xa0;end</span>
+</pre>
+				</div>
+
+				<div class="col-md-5">
+					<h5 class="text-center">Instalar Sinatra</h5>
+<pre style='color:#000020;background:rgb(238, 239, 242);'><span style='color:#400000; '>&nbsp;&nbsp;&nbsp;&nbsp;gem</span> install sinatra <b>ó</b> sudo</span> <span style='color:#400000; '>gem</span> install sinatra
+</pre>
+					<h5 class="text-justify">
+						Para lanzar el servidor de sinatra, basta con escribir 'ruby app.rb'.
+						Se lanzará en el puerto 3000, establecido en el ejemplo. 
+					</h5>
+					<h5 class="text-justify">
+						Para observar el resultado hay que acceder a 
+						<a href="http://localhost:3000/" target="_blank">http://localhost:3000</a>
+						en el navegador.
+					</h5>
+					<h5 class="text-justify">
+						El require 'sinatra' sirve para que detecte la aplicación (app.rb) como
+						proyecto de Sinatra y añada la librería con sus funcionalidades.
+					</h5>
+					<h5 class="text-justify">
+						El puerto se lanza por defecto en el 4567. Se puede modificar (ver ej).
+						El get crea una ruta que redirige a la ruta base de locahost:3000. 
+					</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-3 col-md-offset-2">
+				<h5 class="text-center">Añadir HTML en Sinatra</h5>
+<pre style='color:#000020;background:#f6f8ff;'>&nbsp;&nbsp;require <span style='color:#1060b6; '>'sinatra'</span>
+
+  get <span style='color:#1060b6; '>'/formulario'</span>
+    <span style='color:#005fd2; '>erb</span>: form
+  <span style='color:#200080; font-weight:bold; '>end</span>
+
+  __END__
+  @@form
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>h1</span><span style='color:#0057a6; '>></span> mi form: <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>h1</span><span style='color:#0057a6; '>></span>
+  ...
+</pre>
+			</div>
+			<div class="col-md-5">
+				<h5 class="text-center">Existen 3 formas de añadir HTML en Sinatra:</h5>
+				<h5 class="text-justify">
+					La forma más simple de añadir vistas (HTML) es como en el Ejemplo Básico, 
+					dentro de la llamada GET. Tambien se pueden poner tags de HTML entre las comillas,
+					como por ejemplo: '&lt;h1>Hello World&lt;/h1>'.
+				</h5>
+				<h5 class="text-justify">
+					Otra forma de añadirlas es añadiendo 'erb: nombre_vista' en la llamada GET. Basta con poner
+					al final del archivo 'app.rb', un '__END__' y despues el nombre de la vista que hemos
+					puesto en la llamada get, con doble @@nombre_vista (ver ejemplo). Todo lo que vaya después 
+					será renderizado en el navegador.
+				</h5>
+				<h5 class="text-justify">
+					Lo más común es crear una carpeta 'views' al lado de 'app.rb', y dentro meter las vistas.
+					Tienen que tener el mismo nombre que sale en las llamadas. Si se pone 'erb: index' en un GET,
+					hay que crear en la carpeta 'views' un archivo 'index.erb' en vez de 'index.html'.
+				</h5>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-3 col-md-offset-2">
+				<h5 class="text-center">Añadir CSS y Javascript</h5>
+				<h5 class="text-justify">
+					Para incluir CSS y Javascript, el proceso es identico en caso de una página HTML 
+					estática: hay que incluir los archivos en el 'head'.
+					Sinatra va a buscar esos 'assets' en una carpeta específica. Hay que crear una carpeta
+					llamada 'public', y dentro organizar a gusto los css y js.
+					Suponiendo que tenemos dos archivos 'mis_estilos.css' y 'mis_efectos.js' en la carpeta
+					'public', habría que llamarlos desde el head como en el 'ejemplo.html'.
+					Los archivos como las imagenes también se pueden poner en dicha carpeta. 
+				</h5>
+			</div>
+			<div class="col-md-5">
+				<h5 class="text-center" style="margin-bottom:15px;">ejemplo.html</h5>
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#004a43; '>&lt;!DOCTYPE html></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>html</span><span style='color:#474796; '> </span><span style='color:#074726; '>lang</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"en"</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>meta</span><span style='color:#474796; '> </span><span style='color:#074726; '>charset</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"UTF-8"</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>title</span><span style='color:#0057a6; '>></span>Ejemplo<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>title</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>link</span><span style='color:#474796; '> </span><span style='color:#074726; '>rel</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"stylesheet"</span><span style='color:#474796; '> </span><span style='color:#074726; '>href</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"/mis_estilos.css"</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"/mis_efectos.js"</span><span style='color:#0057a6; '>></span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>head</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>img</span><span style='color:#474796; '> </span><span style='color:#074726; '>src</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"/mi_foto.jpg"</span><span style='color:#0057a6; '>></span> <span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>body</span><span style='color:#0057a6; '>></span>
+<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>html</span><span style='color:#0057a6; '>></span>
+</pre>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:10px">
+			<h4 class="text-center">Añadir Ruby en HTML</h4>
+			<div class="col-md-8 col-md-offset-2">				
+				<h5 class="text-justify">
+					Incluir ruby en html es muy sencillo. Lo importante es preparar los métodos y la lógica dentro de las
+					llamadas GET o POST en 'app.rb'. En el siguiente ejemplo se puede observar como se pueden incluir
+					sentencias de ruby sin problema en el archivo de sinatra, y para incluir los resultados en la vista
+					basta con incluir las variables entre los siguientes simbolos de ruby: <tt>&lt;%= @variable %></tt>.
+					En el caso de querer meter algún if, end o alguna sentencia, iría de la siguiente forma: 
+					<tt>&lt;% if %></tt>. Al no tener intención de 'mostrar' en la vista el if, basta con quitarle el '=',
+					si no, no se imprimirán adecuadamente las variables.
+				</h5>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:15px;">
+			<h4 class="text-center">Llamada GET</h4>
+			<div class="col-md-3 col-md-offset-2">
+				<h5 class="text-center">app.rb</h5>
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#595979; '>&nbsp;&nbsp;&nbsp;&nbsp;# GET</span>
+  get <span style='color:#1060b6; '>'/'</span><span style='color:#200080; font-weight:bold; '> do</span>
+    <span style='color:#1060b6; '>'Hello world!'</span>
+  <span style='color:#200080; font-weight:bold; '>end</span>
+</pre>
+			</div>
+
+			<div class="col-md-5">
+				<h5 class="text-center">Características de la llamada GET:</h5>
+				<ul>
+					<li>Las GET se pueden cachear (rastrear), y se quedan en el historial.</li>
+					<li>Tienen longitud máxima, y se pueden guardar en los bookmarks.</li>
+					<li>No se deben usar nunca para manejar datos importantes.</li>
+					<li>Se deben usar <u><b>únicamente</b></u> para recibir información.</li>
+					<li>Se pueden enviar parametros para recibir informacion especifica.</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row" style="padding-top:15px;">
+			<h4 class="text-center">Llamada POST</h4>
+			<div class="col-md-3 col-md-offset-2">
+				<h5 class="text-center">app.rb</h5>
+<pre style='color:#000020;background:#f6f8ff;'>&nbsp;&nbsp;require <span style='color:#1060b6; '>'sinatra'</span>
+
+  get <span style='color:#1060b6; '>'/formulario'</span><span style='color:#200080; font-weight:bold; '> do</span>
+    <span style='color:#005fd2; '>erb</span>: formulario
+  <span style='color:#200080; font-weight:bold; '>end</span>
+
+  post <span style='color:#1060b6; '>'/resultado'</span><span style='color:#200080; font-weight:bold; '> do</span>
+    info <span style='color:#308080; '>=</span> params[:my_text]
+    <span style='color:#1060b6; '>"Has escrito </span><span style='color:#000000; background:#cceeee; '>#{info}</span><span style='color:#1060b6; '>"</span>
+  <span style='color:#200080; font-weight:bold; '>end</span>
+</pre>
+			</div>
+
+			<div class="col-md-5">
+				<h5 class="text-center">views / formulario.erb</h5>
+<pre style='color:#000020;background:#f6f8ff;'><span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>form</span><span style='color:#474796; '> </span><span style='color:#074726; '>action</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"/url_destino"</span><span style='color:#474796; '> </span><span style='color:#074726; '>method</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"POST"</span><span style='color:#0057a6; '>></span>
+  <span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>input</span><span style='color:#474796; '> </span><span style='color:#074726; '>type</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"text"</span><span style='color:#474796; '> </span><span style='color:#074726; '>name</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"my_text"</span><span style='color:#474796; '> </span><span style='color:#0057a6; '>/></span>
+<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>form</span><span style='color:#0057a6; '>></span>
+</pre>
+			<h5 class="text-justify">
+				El formulario se encuentra en una vista que corresponde a una llamada get. Para que el 
+				formulario envie información, tiene que tener: method='post', y debe redirigirse a una
+				url que es la que corresponde al post en el 'app.rb'. Como el ejemplo tiene
+				una ruta POST que corresponde a '/resultado', entonces hay que añadir en el form: 
+				action="/resultado". Hay que añadir dentro del form un botón de tipo 'submit' para que
+				este envie a '/resultado' lo introducido en el input.
+			</h5>
+			</div>
+		</div>
+
+
+		<div class="row" style="padding-top:10px;">
+			<div class="col-md-5 col-md-offset-2">
+				<h5 class="text-center">Características de la llamada POST:</h5>
+				<ul style="margin-top:25px">
+					<li>No se pueden cachear (rastrear). No se quedan en el historial.</li>
+					<li>Tampoco se pueden guardar en los bookmarks.</li>
+					<li>Se pueden usar para recibir y enviar información.</li>
+					<li>Suelen usarse para manipular datos sensibles.</li>
+					<li>Se pueden encriptar con <b>TOKENS</b> para dar seguridad.</li>
+				</ul>
+			</div>
+
+			<div class="col-md-3">
+				<h5 class="text-center">Otras llamadas:</h5>
+<pre style='color:#000020;background:#f6f8ff;'>&nbsp;&nbsp;&nbsp;&nbsp;GET (obtener datos)
+    POST (enviar datos)
+    PUT (editar datos)
+    DELETE (borrar datos)
+    TRACE
+    CONNECT
+</pre>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div style="padding-bottom:100px;"></div>
+		</div>
+	</div>
+</body>
+</html>
